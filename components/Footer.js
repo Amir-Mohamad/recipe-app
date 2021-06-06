@@ -1,5 +1,13 @@
+import Typography from "@material-ui/core/Typography";
+
 function Footer() {
-	return <div></div>;
+	return (
+		<>
+			<footer className="footer">
+				<p>Copywrite 2021</p>
+			</footer>
+		</>
+	);
 }
 
 export default Footer;
