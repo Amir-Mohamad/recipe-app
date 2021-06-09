@@ -3,7 +3,7 @@ import Image from "next/image";
 function RecipeCard({ title, image, time, description }) {
 	return (
 		<>
-			<div class="rounded overflow-hidden shadow-lg m-8">
+			<div class="rounded overflow-hidden shadow-lg m-8 cursor-pointer recipe__card">
 				<Image
 					src={image}
 					className="w-full"
