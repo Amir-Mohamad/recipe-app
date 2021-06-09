@@ -7,16 +7,18 @@ function Navbar() {
 			<nav className="flex justify-between p-5">
 				<div className="logo pt-1 mx-0 cursor-pointer">
 					{/* <Image src="/logoo.png" alt="Recipe" width={50} height={30} /> */}
-					<Typography variant="h6" component="h2" className="font-bold">
-						Recipe
-					</Typography>
+					<h1 className="ml-5 text-2xl">Recipe</h1>
 				</div>
 				<div className="flex justify-end">
 					<Link href="/">
-						<button class="btn">Login</button>
+						<button class="bg-green-400 px-6 mr-2 shadow-lg rounded w-full">
+							Order
+						</button>
 					</Link>
 					<Link href="/about">
-						<button class="btn">Sign Up</button>
+						<button class="bg-gray-200 px-6 mr-2 shadow-lg rounded whitespace-nowrap">
+							Login
+						</button>
 					</Link>
 				</div>
 			</nav>

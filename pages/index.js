@@ -14,13 +14,49 @@ export default function Home() {
 				/>
 				<RecipeCard
 					title="second recipe"
-					image="/pexels-pixabay-461198.jpg"
+					image="/2.jpg"
 					time="2"
 					description="Consequat reprehenderit magna aliqua ex esse dolore."
 				/>
 				<RecipeCard
 					title="third recipe"
-					image="/pexels-pixabay-461198.jpg"
+					image="/3.jpg"
+					time="2"
+					description="Sit ipsum laboris non occaecat voluptate ullamco nulla."
+				/>
+				<RecipeCard
+					title="third recipe"
+					image="/3.jpg"
+					time="2"
+					description="Sit ipsum laboris non occaecat voluptate ullamco nulla."
+				/>
+				<RecipeCard
+					title="third recipe"
+					image="/4.jpg"
+					time="2"
+					description="Sit ipsum laboris non occaecat voluptate ullamco nulla."
+				/>
+				<RecipeCard
+					title="third recipe"
+					image="/5.jpg"
+					time="2"
+					description="Sit ipsum laboris non occaecat voluptate ullamco nulla."
+				/>
+				<RecipeCard
+					title="third recipe"
+					image="/6.jpg"
+					time="2"
+					description="Sit ipsum laboris non occaecat voluptate ullamco nulla."
+				/>
+				<RecipeCard
+					title="third recipe"
+					image="/7.jpg"
+					time="2"
+					description="Sit ipsum laboris non occaecat voluptate ullamco nulla."
+				/>
+				<RecipeCard
+					title="third recipe"
+					image="/8.jpg"
 					time="2"
 					description="Sit ipsum laboris non occaecat voluptate ullamco nulla."
 				/>
