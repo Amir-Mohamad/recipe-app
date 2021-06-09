@@ -12,3 +12,17 @@
 .footer {
 	@apply text-center left-0 bottom-0 w-full p-10 font-bold text-gray-600;
 }
+.header {
+	min-height: 90vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+		url("/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}

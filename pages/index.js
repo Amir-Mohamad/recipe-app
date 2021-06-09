@@ -1,10 +1,12 @@
 import Head from "next/head";
+import Header from "../components/Header";
 import Layout from "../components/Layout";
 import RecipeCard from "../components/RecipeCard";
 
 export default function Home() {
 	return (
 		<Layout>
+			<Header />
 			<div className="grid grid-cols-3 items-center">
 				<RecipeCard
 					title="first recipe"

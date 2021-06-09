@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 function Navbar() {
 	return (
 		<div>
-			<nav className="flex justify-between p-5">
+			<nav className="flex justify-between p-5 bg-gray-100">
 				<div className="logo pt-1 mx-0 cursor-pointer">
 					{/* <Image src="/logoo.png" alt="Recipe" width={50} height={30} /> */}
 					<h1 className="ml-5 text-2xl">Recipe</h1>
