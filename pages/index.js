@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<Layout>
 			<Header />
-			<div className="grid grid-cols-3 items-center">
+			<div className="sm:grid sm:grid-cols-1 items-center lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 grid grid-cols-3">
 				<RecipeCard
 					title="first recipe"
 					image="/pexels-pixabay-461198.jpg"
